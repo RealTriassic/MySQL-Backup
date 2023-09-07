@@ -12,7 +12,7 @@ Once configured, I recommend running the script at least once manually and see i
 ## Making it run automatically
 You can use a simple cronjob to make it execute the script automatically.
 
-⚠️ **This assumes that you have your script located in the root directory**, if not, please update the cronjob accordingly.
+⚠️ **This is an example**, you may have to edit the cronjob if you have renamed/relocated the script.
 
 1. Run `crontab -e` to open the cronjob editor.
 2. Press `i` to enable insert mode in the editor.
