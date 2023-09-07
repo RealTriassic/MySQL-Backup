@@ -19,3 +19,6 @@ You can use a simple cronjob to make it execute the script automatically.
 5. Type `:wq` to save and exit.
 
 > This is going to create a new backup of all databases every 24 hours at midnight, but you can adjust the cronjob as you wish to have it run whenever you want.
+
+# License
+This project is licensed under the Unlicense License, you may view the LICENSE [here](https://github.com/RealTriassic/MySQL-Backup/blob/main/LICENSE).
