@@ -12,9 +12,11 @@ Once configured, I recommend running the script at least once manually and see i
 ## Making it run automatically
 You can use a simple cronjob to make it execute the script automatically.
 
+⚠️ **This assumes that you have your script located in the root directory**, if not, please update the cronjob accordingly.
+
 1. Run `crontab -e` to open the cronjob editor.
 2. Press `i` to enable insert mode in the editor.
-3. Paste this into a new line: `0 0 * * * bash /root/db_backup.sh >> /dev/null 2>&1`
+3. Paste this into a new line: `0 0 * * * bash /root/backup.sh >> /dev/null 2>&1`
 4. Press ESC (Escape) on your keyboard.
 5. Type `:wq` to save and exit.
 
